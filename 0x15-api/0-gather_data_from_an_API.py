@@ -1,20 +1,18 @@
 #!/usr/bin/python3
 """
 Using https://jsonplaceholder.typicode.com
-returns
-    info about employee TODO progress
-    Implemented using recursion
+returns info about employee TODO progress
+Implemented using recursion
 """
 import re
-from turtle import title
 import requests
 import sys
 
+
 API = "https://jsonplaceholder.typicode.com"
+"""REST API url"""
 
-""" Rest API url """
 
-""" Main function """
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         if re.fullmatch(r'\d+', sys.argv[1]):
