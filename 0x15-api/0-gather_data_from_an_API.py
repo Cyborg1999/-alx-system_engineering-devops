@@ -11,8 +11,10 @@ import requests
 import sys
 
 API = "https://jsonplaceholder.typicode.com"
+
 """ Rest API url """
 
+""" Main function """
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         if re.fullmatch(r'\d+', sys.argv[1]):
