@@ -1,5 +1,7 @@
 # Postmortem
 
+![debugging](debugging.jpeg)
+
 ## Debugging Process
 1 : Checked running processes using ps aux. Two apache2 processes - root and www-data - were properly running.
 
